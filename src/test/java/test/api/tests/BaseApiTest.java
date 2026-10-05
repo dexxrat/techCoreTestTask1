@@ -1,4 +1,4 @@
-package test.api;
+package test.api.tests;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;

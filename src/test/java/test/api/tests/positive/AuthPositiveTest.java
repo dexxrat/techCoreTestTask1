@@ -4,12 +4,12 @@ import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import test.api.BaseApiTest;
 import test.api.service.AuthService;
+import test.api.tests.BaseApiTest;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.hamcrest.Matchers.equalTo;
-import static test.api.AppConfig.VALID_TOKEN_SYMBOLS;
+import static test.api.config.AppConfig.VALID_TOKEN_SYMBOLS;
 import static test.api.utils.TokenGenerator.generateFromAlphabet;
 
 @Epic("API тесты")

@@ -1,4 +1,4 @@
-package test.api;
+package test.api.config;
 
 public class AppConfig {
     public static final String CONTENT_TYPE = "application/x-www-form-urlencoded";
