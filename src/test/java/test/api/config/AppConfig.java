@@ -10,7 +10,6 @@ public class AppConfig {
             "GHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     public static final int TOKEN_LENGTH = 32;
 
-
     private AppConfig() {
     }
 }
