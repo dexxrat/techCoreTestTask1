@@ -3,7 +3,7 @@ package test.api.service;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
-import static test.api.AppConfig.*;
+import static test.api.config.AppConfig.*;
 
 public class AuthService {
 

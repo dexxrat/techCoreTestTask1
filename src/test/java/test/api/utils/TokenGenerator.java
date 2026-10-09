@@ -2,7 +2,7 @@ package test.api.utils;
 
 import java.util.Random;
 
-import static test.api.AppConfig.TOKEN_LENGTH;
+import static test.api.config.AppConfig.TOKEN_LENGTH;
 
 public class TokenGenerator {
 
